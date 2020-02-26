@@ -1,0 +1,8 @@
+[API_SETTINGS]
+API_URL=<canvas_url>/api/v1/
+API_KEY=<API_KEY>
+
+[COURSE]
+COURSE_ID=<Canvas_course_id>
+ASSIGNMENT_ID=<Canvas_assignment_id>
+STUDENT_ID=<Canvas_student_id>
