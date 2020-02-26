@@ -1,0 +1,22 @@
+{ 
+   "<assessment_1_id>": { 
+        "rating_id": <assessment_1_ratingid>, 
+        "points": <assessment_1_points> 
+        }, 
+    "<assessment_2_id>": { 
+        "rating_id": <assessment_2_ratingid>, 
+        "points": <assessment_2_points> 
+        },  
+    "<assessment_3_id>": { 
+        "rating_id": <assessment_3_ratingid>, 
+        "points": <assessment_3_points> 
+        },  
+    "<assessment_4_id>": { 
+        "rating_id": <assessment_4_ratingid>, 
+        "points": <assessment_4_points> 
+        },  
+    "<assessment_5_id>": { 
+        "rating_id": <assessment_5_ratingid>, 
+        "points": <assessment_5_points> 
+        }, 
+}
