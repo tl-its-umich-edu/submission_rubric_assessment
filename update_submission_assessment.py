@@ -17,17 +17,6 @@ from configparser import ConfigParser
 parser = ConfigParser()
 parser.read('./config.txt')
 
-print(parser.get('API_SETTINGS', 'API_URL'))
-print(parser.get('API_SETTINGS', 'API_KEY'))
-
-#read from config file
-config_file = open("./config.txt", 'r')
-content = config_file.read()
-paths = content.split("\n") #split it into lines
-for path in paths:
-    path_parts=path.split("=")
-    
-
 API_URL = parser.get('API_SETTINGS', 'API_URL')
 # Canvas API key
 API_KEY = parser.get('API_SETTINGS', 'API_KEY')
