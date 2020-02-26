@@ -12,9 +12,9 @@ from canvasapi.paginated_list import PaginatedList
 from canvasapi.requester import Requester
 from canvasapi.util import combine_kwargs
 
-from configparser import SafeConfigParser
+from configparser import ConfigParser
 
-parser = SafeConfigParser()
+parser = ConfigParser()
 parser.read('./config.txt')
 
 print(parser.get('API_SETTINGS', 'API_URL'))
@@ -33,11 +33,9 @@ API_URL = parser.get('API_SETTINGS', 'API_URL')
 API_KEY = parser.get('API_SETTINGS', 'API_KEY')
 
 ###### GLOBAL VARIABLES AND API ACCESS #####
-COURSE_ID = parser.get('IPE_COURSE', 'COURSE_ID')
-ASSIGNMENT_ID = parser.get('IPE_COURSE', 'ASSIGNMENT_ID')
-STUDENT_ID = parser.get('IPE_COURSE', 'STUDENT_ID')
-
-
+COURSE_ID = parser.get('COURSE', 'COURSE_ID')
+ASSIGNMENT_ID = parser.get('COURSE', 'ASSIGNMENT_ID')
+STUDENT_ID = parser.get('COURSE', 'STUDENT_ID')
 
 # Initialize a new Canvas object
 canvas = Canvas(API_URL, API_KEY)
