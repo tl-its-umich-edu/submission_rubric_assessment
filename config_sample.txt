@@ -4,5 +4,7 @@ API_KEY=<API_KEY>
 
 [COURSE]
 COURSE_ID=<Canvas_course_id>
-ASSIGNMENT_ID=<Canvas_assignment_id>
+ASSIGNMENT_ID_73=<Canvas_assignment73_id>
+ASSIGNMENT_ID_72=<Canvas_assignment72_id>
+QUIZ_ID_72=<Canvas_quiz72_id>
 STUDENT_ID=<Canvas_student_id>
