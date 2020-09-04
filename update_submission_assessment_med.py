@@ -88,7 +88,6 @@ STUDENT_ID_LIST = []
 canvas = Canvas(API_URL, API_KEY)
 course = canvas.get_course(COURSE_ID)
 assignment = course.get_assignment(ASSIGNMENT_ID)
-#quiz_72 = course.get_quiz(QUIZ_ID_72)
 submissions = assignment.get_submissions()
 
 logger.info(assignment)

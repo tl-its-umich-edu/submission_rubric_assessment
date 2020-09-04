@@ -2,3 +2,4 @@ config.txt
 config
 env
 src
+assessment*.json
